@@ -1,5 +1,7 @@
 # HP 9470m Clover Catalina
 * Clover EFI for HP Elitebook 9470m running Catalina 10.15.7
+* Streamline kexts and drivers
+* Use VirtualSMC for future kext compatibility with Lilu and Whatevergreen
 ## Credits
 EdHawk - Hackintosher  
 Clover  
