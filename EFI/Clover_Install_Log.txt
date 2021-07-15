@@ -1,0 +1,69 @@
+
+Clover EFI installer log - Wed Jul 14 13:41:55 +08 2021
+Installer version: r5138 (commit: a634a8258) EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *800.2 GB   disk0
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk0s1
+   2:                 Apple_APFS ⁨Container disk1⁩         800.0 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +800.0 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume ⁨Monterey - Data⁩         41.9 GB    disk1s1
+   2:                APFS Volume ⁨Preboot⁩                 266.8 MB   disk1s2
+   3:                APFS Volume ⁨Recovery⁩                1.1 GB     disk1s3
+   4:                APFS Volume ⁨VM⁩                      1.1 MB     disk1s4
+   5:                APFS Volume ⁨Monterey⁩                16.0 GB    disk1s5
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *512.1 GB   disk2
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk2s1
+   2:                 Apple_APFS ⁨Container disk3⁩         256.0 GB   disk2s2
+   3:                 Apple_APFS ⁨Container disk4⁩         256.0 GB   disk2s3
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +256.0 GB   disk3
+                                 Physical Store disk2s2
+   1:                APFS Volume ⁨bigSur11-5 - Data⁩       122.2 GB   disk3s1
+   2:                APFS Volume ⁨Preboot⁩                 285.3 MB   disk3s2
+   3:                APFS Volume ⁨Recovery⁩                620.8 MB   disk3s3
+   4:                APFS Volume ⁨VM⁩                      1.1 MB     disk3s4
+   5:                APFS Volume ⁨bigSur11-5⁩              15.3 GB    disk3s5
+   6:              APFS Snapshot ⁨com.apple.os.update-...⁩ 15.3 GB    disk3s5s1
+
+/dev/disk4 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +256.0 GB   disk4
+                                 Physical Store disk2s3
+   1:                APFS Volume ⁨Catalina10-15-7 - Data⁩  62.9 GB    disk4s1
+   2:                APFS Volume ⁨Preboot⁩                 82.2 MB    disk4s2
+   3:                APFS Volume ⁨Recovery⁩                529.0 MB   disk4s3
+   4:                APFS Volume ⁨VM⁩                      9.7 GB     disk4s4
+   5:                APFS Volume ⁨Catalina10-15-7⁩         11.2 GB    disk4s5
+
+/dev/disk5 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *62.7 GB    disk5
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk5s1
+   2:                  Apple_HFS ⁨Install macOS Catalina⁩  62.4 GB    disk5s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Catalina
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Catalina
+Stage 2 - Written boot6 (x64) to /Volumes/EFI/boot
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
